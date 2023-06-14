@@ -149,16 +149,19 @@ header span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 70%;
     align-self: center;
 }
 
 .section.card-1 .price-section1 img {
-    width: 300px;
+    width: 350px;
     height: 250px;
 }
 
 .section.card-1 .price-section1 {
+    text-align: center;
+}
+
+.price-section1 .box-price p {
     text-align: center;
 }
 
@@ -204,7 +207,7 @@ header span {
 
 .box-images-card-2 img:first-child {
     width: 25rem;
-    height: 32.25rem;
+    height: 30.25rem;
     transition: transform 0.4s;
 }
 
@@ -293,11 +296,10 @@ header span {
 
 
 .section.card-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 5px;
-    padding-top: 2rem;
+    justify-content: center;
 
     background-image: url("./assets/empresario.jpg");
     background-repeat: no-repeat;
@@ -305,8 +307,8 @@ header span {
 }
 
 .box-images-card-4 img {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 300px;
     transition: transform 0.4s;
 }
 
@@ -373,6 +375,7 @@ header span {
 .content-section-4 span {
     color: var(--background);
     text-decoration: line-through;
+    text-decoration-color: var(--star);
     font-weight: bold;
 }
 
@@ -464,7 +467,7 @@ footer {
 }
 
 footer img {
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 

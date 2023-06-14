@@ -61,6 +61,13 @@
     body {
         font-size: 1rem;
     }
+    .content-section-1 {
+        padding: 5px;
+        width: 110%;
+    }
+    .content-section-1 span {
+        text-align: center;
+    }
     header h4 {
      font-size: 1rem;
      text-align: center;
@@ -98,6 +105,9 @@
     .box-images-card-2 img:first-child {
         width: 250px;
         height: 250px;
+    }
+    .box-images-card-2.criativo img  {
+        height: 350px;
     }
     .content-section-2 h4 {
         font-size: 1rem;
